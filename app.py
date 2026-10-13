@@ -244,7 +244,7 @@ hr {
 # =====================================================
 @st.cache_resource
 def load_artifacts():
-    return joblib.load("deployment/hierarchical_artifacts.pkl")
+    return joblib.load("hierarchical_artifacts.pkl")
 
 
 try:
